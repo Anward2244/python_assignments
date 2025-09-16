@@ -11,7 +11,7 @@ for j in range(0, len(list1)):
 
     if flag == False:
         break
-print(list1)
+print(list1)          # [210, 125, 57, 51, 12, 8]
 
 
 
@@ -27,7 +27,7 @@ for j in range(0, len(list2)):
 
     if flag == False:
         break
-print(list2)
+print(list2)           # ['anwar', 'vishnu', 'hussain', 'dhanush', 'shashavali']
 
 
 
@@ -43,7 +43,7 @@ for j in range(0, len(list2)):
 
     if flag == False:
         break
-print(list2)
+print(list2)             # ['anwar', 'dhanush', 'hussain', 'shashavali', 'vishnu']
 
 
 
@@ -59,4 +59,4 @@ for j in range(0, len(list3)):
 
     if flag == False:
         break
-print(list3)
+print(list3)             # [[5, 65, 35], [8, 636], [12, 75], [75, 65, 68]]
