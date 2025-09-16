@@ -31,6 +31,22 @@ print(list2)
 
 
 
+# sorting strings inside a list
+list2 = ['anwar', 'shashavali', 'hussain', 'vishnu', 'dhanush']
+flag = False
+
+for j in range(0, len(list2)):
+    for i in range(0, len(list2) - 1 - j):
+        if ord(list2[i][0]) > ord(list2[i + 1][0]):
+            list2[i], list2[i + 1] = list2[i + 1], list2[i]
+            flag = True
+
+    if flag == False:
+        break
+print(list2)
+
+
+
 # sorting nested lists based on the first element in each nested list
 list3 = [[12, 75], [8, 636], [75, 65, 68], [5, 65, 35]]
 flag = False
