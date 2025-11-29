@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 # x = [1, 2, 3, 4, 5]
 # y = [10, 14, 12, 18, 20]
 
@@ -22,4 +22,5 @@ plt.tight_layout()
 plt.pie(shares, labels=countries, autopct='%1.1f%%')
 plt.title("Population Percentage")
 plt.axis('equal')
+
 plt.show()
